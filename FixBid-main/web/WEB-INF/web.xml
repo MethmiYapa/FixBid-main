@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>addFeedback</servlet-name>
+        <servlet-class>servlets.addFeedbackServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addFeedback</servlet-name>
+        <url-pattern>/jsp/addFeedback</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteFeedback</servlet-name>
+        <servlet-class>servlets.deleteFeedbackServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteFeedback</servlet-name>
+        <url-pattern>/jsp/deleteFeedback</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateAdmin</servlet-name>
+        <servlet-class>servlets.updateAdminServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateAdmin</servlet-name>
+        <url-pattern>/jsp/updateAdmin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>delUser</servlet-name>
+        <servlet-class>servlets.delUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delUser</servlet-name>
+        <url-pattern>/jsp/delUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>registerSer</servlet-name>
+        <servlet-class>servlets.registerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registerSer</servlet-name>
+        <url-pattern>/jsp/registerSer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>loginSer</servlet-name>
+        <servlet-class>servlets.loginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginSer</servlet-name>
+        <url-pattern>/jsp/loginSer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>servlets.logoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/jsp/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateUser</servlet-name>
+        <servlet-class>servlets.updateUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateUser</servlet-name>
+        <url-pattern>/jsp/updateUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteUser</servlet-name>
+        <servlet-class>servlets.deleteUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteUser</servlet-name>
+        <url-pattern>/jsp/deleteUser</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>addedProduct</servlet-name>
+        <servlet-class>servlets.addProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addedProduct</servlet-name>
+        <url-pattern>/jsp/addedProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>handleProduct</servlet-name>
+        <servlet-class>servlets.handleProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>handleProduct</servlet-name>
+        <url-pattern>/jsp/handleProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updateProduct</servlet-name>
+        <servlet-class>servlets.updateProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateProduct</servlet-name>
+        <url-pattern>/jsp/updateProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>forgetPassword</servlet-name>
+        <servlet-class>servlets.forgetPasswordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>forgetPassword</servlet-name>
+        <url-pattern>/jsp/forgetPassword</url-pattern>
+    </servlet-mapping>
+
+
+
+</web-app>

@@ -1,0 +1,38 @@
+.vertical-nav {
+    width: 17rem;
+    position: fixed;
+    min-height: 100vh;
+    top: inherit;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+}
+
+.text-uppercase {
+    letter-spacing: 0.1em;
+}
+
+.text-gray {
+    color: #aaa;
+}
+
+/*@media (max-width: 768px) {*/
+/*    #sidebar {*/
+/*        margin-left: -17rem;*/
+/*    }*/
+/*    #sidebar.active {*/
+/*        margin-left: 0;*/
+/*    }*/
+/*    #content {*/
+/*        width: 100%;*/
+/*        margin: 0;*/
+/*    }*/
+/*    #content.active {*/
+/*        margin-left: 17rem;*/
+/*        width: calc(100% - 17rem);*/
+/*    }*/
+/*}*/

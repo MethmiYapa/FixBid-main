@@ -1,0 +1,17 @@
+h1{
+    font-weight: bold;
+    color: #001B48;
+}
+
+hr{
+    border: 2px solid #02457A;
+}
+
+label {
+    font-weight: bold;
+
+}
+
+#reg_submit:hover, #reg_cancel:hover {
+    color: black;
+}

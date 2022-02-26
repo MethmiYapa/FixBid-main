@@ -1,0 +1,5 @@
+1. Add isValid or isInvalid classes to feedback form (js)
+2. Decorate feedback page (background image, form border etc..)
+3. Set active nav class to all pages including admin page
+4. Js functions to admin buttons
+5. Remove addFeedbackServlet unnecessary lines (added to the testing purpose)
